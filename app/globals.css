@@ -14,12 +14,19 @@
   }
 }
 
+*{
+font-family: Gilroy;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
 
+::selection{
+  color: antiquewhite;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
