@@ -8,8 +8,9 @@ const page = () => {
     <>
       <div className=" relative w-full h-screen bg-slate-500 ">
       <Bg />
-      </div>
       <Fg />
+      </div>
+     
     </>
   );
 };
